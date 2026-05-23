@@ -1,22 +1,6 @@
-# Core Framework
-streamlit==1.28.1
-
-# Database
-mysql-connector-python==8.1.0
-
-# Data Processing
-pandas==2.0.3
-numpy==1.24.3
-
-# Visualization
-plotly==5.17.0
-
-# Date/Time Utilities
-python-dateutil==2.8.2
-
-# Excel Export
-openpyxl==3.1.2
-
-# Additional Utilities (optional but recommended)
-pillow==10.0.0
-pyarrow==12.0.0
+streamlit>=1.28.0
+mysql-connector-python>=8.0.0,<9.0.0
+pandas>=1.5.0,<2.1.0
+plotly>=5.10.0
+python-dateutil>=2.8.0
+openpyxl>=3.0.0
